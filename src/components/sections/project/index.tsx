@@ -1,5 +1,5 @@
 import { Col, Row } from "react-bootstrap"
-import ProjectCard from "./project.card";
+import ProjectCard from "components/sections/project/project.card";
 import { PROJECTS } from "helpers/data";
 
 const Project = () => {
