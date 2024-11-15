@@ -23,26 +23,26 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     /* Config absolute path: https://www.npmjs.com/package/vite-tsconfig-paths */
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "paths": {
       "@/*": [
-        "./src/*"
+        "./*"
       ],
       "assets/*": [
-        "./src/assets/*"
+        "assets/*"
       ],
       "components/*": [
-        "./src/components/*"
+        "components/*"
       ],
       "helpers/*": [
-        "./src/helpers/*"
+        "helpers/*"
       ],
       "pages/*": [
-        "./src/pages/*"
+        "pages/*"
       ],
       "styles/*": [
-        "./src/styles/*"
-      ],
+        "styles/*"
+      ]
     }
   },
   "include": [
