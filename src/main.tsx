@@ -34,7 +34,8 @@ const router = createBrowserRouter([
 
 ]);
 
-createRoot(document.getElementById('root')).render(
+// Thêm ! để bỏ qua kiểm tra null (đảm bảo element root tồn tại)
+createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <AppContextProvider>
       <RouterProvider router={router} />
